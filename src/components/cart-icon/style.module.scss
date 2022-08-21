@@ -1,0 +1,28 @@
+.cartIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  padding: 0 1rem;
+  background-color: #f1f9ff;
+  border-radius: 5px;
+  width: -webkit-fill-available;
+  border: 1px solid #e1e1fd;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background-color: #e6e6f0;
+  }
+
+  .cartIcon {
+    border-right: 1px solid #a6a6cc;
+    padding-right: 1rem;
+    vertical-align: -webkit-baseline-middle;
+  }
+
+  .cartIconAmount {
+    padding-left: 1rem;
+    vertical-align: -webkit-baseline-middle;
+  }
+}

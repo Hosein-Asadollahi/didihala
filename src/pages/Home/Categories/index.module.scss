@@ -1,0 +1,41 @@
+.categoriesContainer {
+  text-align: center;
+  padding: 0.8rem 1.3rem;
+  margin: 1rem auto;
+
+  h4 {
+    margin-bottom: 1.5rem;
+    line-height: 2.1;
+  }
+
+  .categoriesRow {
+    margin-top: 1rem;
+
+    .images {
+      @media (max-width: 36rem) {
+        width: 6rem;
+        height: 6rem;
+      }
+
+      @media (min-width: 36rem) {
+        width: 8rem;
+        height: 8rem;
+      }
+
+      @media (min-width: 48rem) {
+        width: 10rem;
+        height: 10rem;
+      }
+
+      @media (min-width: 62rem) {
+        width: 12rem;
+        height: 12rem;
+      }
+    }
+
+    p {
+      font-size: 0.8rem;
+      // font-weight: bold;
+    }
+  }
+}

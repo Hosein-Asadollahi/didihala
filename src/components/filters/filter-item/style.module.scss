@@ -1,0 +1,23 @@
+.filterItemContainer {
+  border-bottom: 1px solid #dee2e6;
+
+  --bs-accordion-inner-border-radius: 0;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 1.3rem;
+    bottom: 0;
+    height: 100px;
+    width: 11rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .filterItem {
+    border: none;
+    
+    .filterTitle {
+      line-height: 1.5;
+    }
+  }
+}
