@@ -1,18 +1,26 @@
 .productList {
   display: flex;
+  gap: 20px;
   padding: 1.5rem;
 
   .filterWindow {
-    flex-grow: 0.1;
+    align-self: flex-start;
+    flex-grow: 1;
+    width: max(20rem);
     border: 1px solid #dee2e6;
-    border-radius: 5px;
+    border-radius: 9px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 
-    div:last-child {
+    p:last-child {
       border-bottom: none;
     }
   }
 
+  .productWindowContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
 }

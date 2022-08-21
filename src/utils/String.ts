@@ -2,6 +2,7 @@ const String = {
   home: 'خانه',
   productList: 'لیست محصولات',
   filters: 'فیلترها',
+  sortingTxt: 'تکست مرتب‌سازی در این مکان گذاشته خواهد شد!',
 }
 
 export const Filter: string[] = [

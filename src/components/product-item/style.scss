@@ -1,0 +1,19 @@
+.productItemLink {
+  text-decoration: none;
+  color: mediumaquamarine;
+  flex-grow: 1;
+
+  &:hover {
+    color: mediumaquamarine;
+  }
+
+  .productItem {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .card-text {
+    border: none;
+  }
+}
