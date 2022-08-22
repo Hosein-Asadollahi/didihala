@@ -14,50 +14,50 @@ import kitchenThings from '../../../images/Categories/kitchen-things.png'
 import book from '../../../images/Categories/book.png'
 import sport from '../../../images/Categories/sport.png'
 
-import classes from './index.module.scss'
+import classes from './style.module.scss'
 
 const Categories: React.FC = () => {
   return (
     <Container className={classes.categoriesContainer}>
       <h4>دسته‌بندی‌های دیدی‌حالا</h4>
-      <Row className={classes.categoriesRow} xs={2} sm={3} lg={5}>
-        <Col>
+      <Row className={classes.categoriesRow} xs={3} sm={4} md={4} lg={5}>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={kalaDigital} rounded={true} ></Image></div>
         <p>کالای دیجیتال</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={khodroAbzar} rounded={true} ></Image></div>
         <p>خودرو، ابزار و تجهیزات صنعتی</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={mod} rounded={true} ></Image></div>
         <p>مد و پوشاک</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={kalaSuperi} rounded={true} ></Image></div>
         <p>کالاهای سوپرمارکتی</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={toy} rounded={true} ></Image></div>
         <p>اسباب بازی، کودک و نوزاد</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={nativeProducts} rounded={true} ></Image></div>
         <p>محصولات بومی و محلی</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={beauty} rounded={true} ></Image></div>
         <p>زیبایی و سلامت</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={kitchenThings} rounded={true} ></Image></div>
         <p>خانه و آشپزخانه</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={book} rounded={true} ></Image></div>
         <p>کتاب، لوازم تحریر و هنر</p>
         </Col>
-        <Col>
+        <Col className={classes.column}>
         <div><Image className={classes.images} src={sport} rounded={true} ></Image></div>
         <p>ورزش و سفر</p>
         </Col>

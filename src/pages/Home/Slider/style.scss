@@ -1,5 +1,23 @@
 .carousel {
+
+  .carousel-item {
+
+    img {
+      @media (max-width:768px) and (min-width:470px) {
+        width: 768px;
+        height: 160px;
+        object-fit: cover;
+      }
+
+      @media (max-width:470px) {
+        width: 576px;
+        height: 125px;
+        object-fit: cover;
+      }
+    }
+  }
+
   .carousel-indicators {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 }

@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 
 const MainHeader: React.FC = () => {
   return (
-    <Navbar bg="light" expand="md">
+    <Navbar className={classes.navbar} bg="light" expand="lg">
       <Container fluid>
         <Navbar.Brand className={classes.navbarBrand} href="#">
           didihala
